@@ -6,7 +6,7 @@ import { Statistics } from 'components/Statistics/Statistics';
 export const App = () => {
   return (
     <div>
-      {/* <Profile user={user} /> */}
+      <Profile user={user} />
       <Statistics data={data} />
     </div>
   );
