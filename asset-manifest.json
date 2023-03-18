@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lordferro/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/lordferro/goit-react-hw-01-components/static/js/main.07d3183d.js",
+    "main.css": "/lordferro/goit-react-hw-01-components/static/css/main.8b88bd3e.css",
+    "main.js": "/lordferro/goit-react-hw-01-components/static/js/main.3b9813cd.js",
     "index.html": "/lordferro/goit-react-hw-01-components/index.html",
-    "main.7acaea2f.css.map": "/lordferro/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/lordferro/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
+    "main.8b88bd3e.css.map": "/lordferro/goit-react-hw-01-components/static/css/main.8b88bd3e.css.map",
+    "main.3b9813cd.js.map": "/lordferro/goit-react-hw-01-components/static/js/main.3b9813cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.8b88bd3e.css",
+    "static/js/main.3b9813cd.js"
   ]
 }
