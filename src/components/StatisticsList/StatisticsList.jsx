@@ -7,9 +7,8 @@ export function StatisticsList({ data }) {
     <StatisticsListStyle>
       {data.map(item => {
         return (
-            <StatisticsItem key={item.id}
-          mixcolor={item.id}  >
-                <StatisticsData data={ item} />
+          <StatisticsItem mixcolor={item.id} key={item.id}>
+            <StatisticsData data={item} />
           </StatisticsItem>
         );
       })}

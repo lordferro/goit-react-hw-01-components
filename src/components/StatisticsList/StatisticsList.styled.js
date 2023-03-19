@@ -29,7 +29,9 @@ export const StatisticsItem = styled.li`
   background-color: ${setBgColor};
   width: 50px;
   padding: 15px;
+  color: black;
 `;
+
 function getRandomHexColor() {
  return `#${ [...Array(6)]
     .map(() => Math.floor(Math.random() * 16).toString(16))
