@@ -6,7 +6,7 @@ padding: 15px;
 `
 
 export const TableRow = styled.tr`
-&:nth-child(2n-1) {
+&:nth-of-type(2n-1) {
     background-color: white;
 }
 `
