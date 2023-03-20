@@ -11,6 +11,6 @@ export function StatisticsData({ data: { label, percentage } }) {
 }
 
 StatisticsData.propTypes = {
-  label: PropTypes.string,
-  percentage: PropTypes.number,
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
 };
