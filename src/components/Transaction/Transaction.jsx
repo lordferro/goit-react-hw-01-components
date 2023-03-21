@@ -12,8 +12,8 @@ export function Transaction({transaction:{type, amount, currency}}) {
     );
 }
 
-Transaction.porpTypes = {
+Transaction.porpTypes = PropTypes.shape({
     type: PropTypes.string.isRequired,
     amount: PropTypes.string.isRequired,
     currency:PropTypes.string.isRequired,
-}
+})
