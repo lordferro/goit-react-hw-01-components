@@ -10,7 +10,9 @@ export function StatisticsData({ data: { label, percentage } }) {
   );
 }
 
-StatisticsData.propTypes = PropTypes.shape({
-  label: PropTypes.string.isRequired,
-  percentage: PropTypes.number.isRequired,
-}).isRequired;
+StatisticsData.propTypes = {
+  data: PropTypes.shape({
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+  }).isRequired,
+};

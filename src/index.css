@@ -1,5 +1,9 @@
 @import-normalize; /* bring in normalize.css styles */
 
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
 body {
   background-color: lightgrey;
   margin: 0;

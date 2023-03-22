@@ -20,8 +20,10 @@ export function ProfileStats({ stats: { followers, views, likes } }) {
   );
 }
 
-ProfileStats.propTypes = PropTypes.shape({
-  followers: PropTypes.number.isRequired,
-  views: PropTypes.number.isRequired,
-  likes: PropTypes.number.isRequired,
-}).isRequired;
+ProfileStats.propTypes = {
+  stats: PropTypes.shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }).isRequired,
+};

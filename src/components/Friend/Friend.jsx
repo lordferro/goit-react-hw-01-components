@@ -4,15 +4,17 @@ import { FriendStatus } from './Friend.styled';
 export function Friend({ friend: { avatar, name, isOnline } }) {
   return (
     <>
-      <FriendStatus status={isOnline}/>
+      <FriendStatus status={isOnline} />
       <img src={avatar} alt="User avatar" width="48" />
       <p>{name}</p>
     </>
   );
 }
 
-Friend.propTypes = PropTypes.shape({
-  avatar: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  isOnline: PropTypes.bool.isRequired,
-}).isRequired;
+Friend.propTypes = {
+  friend: PropTypes.shape({
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired,
+  }).isRequired,
+};
